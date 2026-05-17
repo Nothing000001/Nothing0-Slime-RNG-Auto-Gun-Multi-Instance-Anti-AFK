@@ -104,8 +104,10 @@ The script will automatically activate your gun every **60 seconds**
 
 > Run these **before** the main script to verify everything works on your setup.
 
-<details>
-<summary><b>Click to expand</b></summary>
+<details style="background-color:#161b22; padding:15px; border-radius:10px; border:1px solid #30363d; margin-top:10px;">
+<summary style="cursor:pointer; font-size:16px;">
+<b> Test 1 - detect_process</b>
+</summary>
 
 <br>
 
@@ -120,7 +122,7 @@ A window will appear showing all running programs with their
 
 <p>Find the line containing <b>Roblox</b>.</p>
 
-<hr>
+<hr style="border:1px solid #30363d;">
 
 <h2>💡 Important — Roblox Process Name</h2>
 
@@ -131,13 +133,13 @@ from the default one used in the script.
 
 <p>By default, the script uses:</p>
 
-<pre><code>RobloxPlayerBeta.exe</code></pre>
+<pre style="background:#0d1117; padding:10px; border-radius:8px;"><code>RobloxPlayerBeta.exe</code></pre>
 
 <p>
 However, during the test, you may see another process name such as:
 </p>
 
-<pre><code>RobloxPlayerInstaller.exe</code></pre>
+<pre style="background:#0d1117; padding:10px; border-radius:8px;"><code>RobloxPlayerInstaller.exe</code></pre>
 
 <p>or another variation ending with <code>.exe</code>.</p>
 
@@ -145,13 +147,13 @@ However, during the test, you may see another process name such as:
 If that happens, replace:
 </p>
 
-<pre><code>RobloxPlayerBeta.exe</code></pre>
+<pre style="background:#0d1117; padding:10px; border-radius:8px;"><code>RobloxPlayerBeta.exe</code></pre>
 
 <p>
 with the exact process name displayed on your system.
 </p>
 
-<hr>
+<hr style="border:1px solid #30363d;">
 
 <h2>📌 Example</h2>
 
@@ -177,7 +179,7 @@ with the exact process name displayed on your system.
 </tr>
 </table>
 
-<hr>
+<hr style="border:1px solid #30363d;">
 
 <h2>⚠️ Warning</h2>
 
