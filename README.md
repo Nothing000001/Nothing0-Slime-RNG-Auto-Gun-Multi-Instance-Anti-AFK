@@ -104,21 +104,29 @@ The script will automatically activate your gun every **60 seconds**
 
 > Run these **before** the main script to verify everything works on your setup.
 
-<details>
-<summary><b>Test 1 — detect_process.ahk</b></summary>
+<details> <summary><b>Click to expand</b></summary> <br>
 
 Double-click to run it.
-A window will list all running programs with their `.exe` name.
-Look for the line containing **Roblox**
+A window will list all running programs with their .exe name.
+
+Look for the line containing Roblox.
+
 💡 Important — Roblox Process Name
+
 Depending on your Roblox version or installation, the process name may be different from the one used in the script.
+
 By default, the script uses:
+
 RobloxPlayerBeta.exe
-👉 However, if during the test you notice that your Roblox process has a different name (for example RobloxPlayer...exe or another variation), you must replace this name in the script with the exact one shown on your system.
-📌 Example:
-If the test shows RobloxPlayerBeta.exe → no changes needed
-If the test shows RobloxPlayerInstaller.exe or RobloxPlayer...exe → replace RobloxPlayerBeta.exe in the script with that exact name
-⚠️ The name must match exactly, otherwise the script will not detect Roblox correctly..
+
+👉 However, if during the test you notice that your Roblox process has a different name (for example RobloxPlayerInstaller.exe or RobloxPlayer....exe), you must replace it in the script with the exact name shown on your system.
+
+📌 Example
+✅ If the test shows RobloxPlayerBeta.exe → no changes needed
+🔁 If the test shows RobloxPlayerInstaller.exe or another variation → replace RobloxPlayerBeta.exe in the script with that exact name
+⚠️ Warning
+
+The name must match exactly, otherwise the script will not detect Roblox correctly.
 
 </details>
 
