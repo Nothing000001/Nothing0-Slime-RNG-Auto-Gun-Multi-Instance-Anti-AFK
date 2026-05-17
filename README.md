@@ -104,29 +104,90 @@ The script will automatically activate your gun every **60 seconds**
 
 > Run these **before** the main script to verify everything works on your setup.
 
-<details> <summary><b>Click to expand</b></summary> <br>
+<details>
+<summary><b>Click to expand</b></summary>
 
-Double-click to run it.
-A window will list all running programs with their .exe name.
+<br>
 
-Look for the line containing Roblox.
+<h2>▶️ How to Use</h2>
 
-💡 Important — Roblox Process Name
+<p>Double-click the script to run it.</p>
 
-Depending on your Roblox version or installation, the process name may be different from the one used in the script.
+<p>
+A window will appear showing all running programs with their
+<code>.exe</code> names.
+</p>
 
-By default, the script uses:
+<p>Find the line containing <b>Roblox</b>.</p>
 
-RobloxPlayerBeta.exe
+<hr>
 
-👉 However, if during the test you notice that your Roblox process has a different name (for example RobloxPlayerInstaller.exe or RobloxPlayer....exe), you must replace it in the script with the exact name shown on your system.
+<h2>💡 Important — Roblox Process Name</h2>
 
-📌 Example
-✅ If the test shows RobloxPlayerBeta.exe → no changes needed
-🔁 If the test shows RobloxPlayerInstaller.exe or another variation → replace RobloxPlayerBeta.exe in the script with that exact name
-⚠️ Warning
+<p>
+Depending on your Roblox version or installation, the process name may differ
+from the default one used in the script.
+</p>
 
-The name must match exactly, otherwise the script will not detect Roblox correctly.
+<p>By default, the script uses:</p>
+
+<pre><code>RobloxPlayerBeta.exe</code></pre>
+
+<p>
+However, during the test, you may see another process name such as:
+</p>
+
+<pre><code>RobloxPlayerInstaller.exe</code></pre>
+
+<p>or another variation ending with <code>.exe</code>.</p>
+
+<p>
+If that happens, replace:
+</p>
+
+<pre><code>RobloxPlayerBeta.exe</code></pre>
+
+<p>
+with the exact process name displayed on your system.
+</p>
+
+<hr>
+
+<h2>📌 Example</h2>
+
+<table>
+<tr>
+<th>Detected Process</th>
+<th>Action</th>
+</tr>
+
+<tr>
+<td><code>RobloxPlayerBeta.exe</code></td>
+<td>✅ No changes needed</td>
+</tr>
+
+<tr>
+<td><code>RobloxPlayerInstaller.exe</code></td>
+<td>🔁 Replace the name in the script</td>
+</tr>
+
+<tr>
+<td>Any other Roblox <code>.exe</code></td>
+<td>🔁 Use that exact name</td>
+</tr>
+</table>
+
+<hr>
+
+<h2>⚠️ Warning</h2>
+
+<p>
+The process name must match <b>exactly</b>.
+</p>
+
+<p>
+Otherwise, the script will not detect Roblox correctly.
+</p>
 
 </details>
 
