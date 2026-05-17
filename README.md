@@ -231,7 +231,7 @@ Then press <b>F2</b> to get the number of instances and their window IDs.
 </ol>
 
 </details>
----
+
 
 ## 🎨 Resume Button Color Fix
 
