@@ -104,9 +104,9 @@ The script will automatically activate your gun every **60 seconds**
 
 > Run these **before** the main script to verify everything works on your setup.
 
-<details style="background-color:#161b22; padding:15px; border-radius:10px; border:1px solid #30363d; margin-top:10px;">
+<details style="background:rgba(56, 139, 253, 0.08); padding:15px; border-radius:10px; border:1px solid rgba(56, 139, 253, 0.18); margin-top:10px;">
 <summary style="cursor:pointer; font-size:16px;">
-<b> Test 1 - detect_process</b>
+<b>Test 1 — detect_process</b>
 </summary>
 
 <br>
@@ -193,25 +193,44 @@ Otherwise, the script will not detect Roblox correctly.
 
 </details>
 
-<details>
-<summary><b>Test 2 — detect_roblox.ahk</b></summary>
+<br>
 
-Double-click to run it.
+<details style="background:rgba(56, 139, 253, 0.08); padding:15px; border-radius:10px; border:1px solid rgba(56, 139, 253, 0.18); margin-top:10px;">
+<summary style="cursor:pointer; font-size:16px;">
+<b>Test 2 — detect_roblox.ahk</b>
+</summary>
+
+<br>
+
+<p>Double-click to run it.</p>
+
+<p>
 It will immediately tell you if Roblox is detected.
-Then press **F2** to get the number of instances and their window IDs.
+</p>
+
+<p>
+Then press <b>F2</b> to get the number of instances and their window IDs.
+</p>
 
 </details>
 
-<details>
-<summary><b>Test 3 — detect_resume_button.ahk</b></summary>
+<br>
 
-1. Open Roblox and open the **Escape menu** (Resume / Leave / Respawn)
-2. Press **F3**
-3. ✅ **DETECTED** → you are good to go
-4. ❌ **NOT detected** → follow the color fix guide below
+<details style="background:rgba(56, 139, 253, 0.08); padding:15px; border-radius:10px; border:1px solid rgba(56, 139, 253, 0.18); margin-top:10px;">
+<summary style="cursor:pointer; font-size:16px;">
+<b>Test 3 — detect_resume_button.ahk</b>
+</summary>
+
+<br>
+
+<ol>
+<li>Open Roblox and open the <b>Escape menu</b> (Resume / Leave / Respawn)</li>
+<li>Press <b>F3</b></li>
+<li>✅ <b>DETECTED</b> → you are good to go</li>
+<li>❌ <b>NOT detected</b> → follow the color fix guide below</li>
+</ol>
 
 </details>
-
 ---
 
 ## 🎨 Resume Button Color Fix
