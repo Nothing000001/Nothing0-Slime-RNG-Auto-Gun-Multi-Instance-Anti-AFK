@@ -11,7 +11,7 @@
 ![AutoHotkey](https://img.shields.io/badge/AutoHotkey-v1.1-green?style=for-the-badge&logo=autohotkey)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=for-the-badge&logo=windows)
 ![Status](https://img.shields.io/badge/Multi--Instance-BETA-orange?style=for-the-badge)
-![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F72%20Clean-brightgreen?style=for-the-badge&logo=virustotal)
+![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F64%20Clean-brightgreen?style=for-the-badge&logo=virustotal)
 
 **[🛡️ VirusTotal Scan — 0/64 Clean](https://www.virustotal.com/gui/file/53fd35873831b69521afb1a9292a795951ab57be013002262bc986a0f8fd07b4?nocache=1)**
 
